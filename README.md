@@ -1,6 +1,7 @@
 # 2048-python
 #uci first python project
-#Preamble
+
+Preamble
 At this point in the course, you have enough knowledge about Python to do more than you might first expect. Many simple games, for example, can be written with your understanding of programming. So let's do it! Let's create the game 2048!
 Concepts being tested
 •	Data Structures
@@ -19,7 +20,7 @@ The game has 4 controls:
 •	a - move the board left
 •	d - move the board right
 Moving the board will slide the pieces towards the chosen direction, combining pieces with the same number if they slide into each other. Sliding this board down!
-#![image](https://user-images.githubusercontent.com/49256407/131613203-cf174dcd-af34-42ed-a41d-dcc008af4f98.png)
+![image](https://user-images.githubusercontent.com/49256407/131613203-cf174dcd-af34-42ed-a41d-dcc008af4f98.png)
 The two 2's combine to form one 4. The game then randomly places another piece on the board, which is the 2 in the upper left of the second board. The goal of the game is to create a piece of the value 2048, in which case the player wins, and the game is over. The game may also terminate if there are no more empty spaces for the game to place a new piece in, and there are no more moves for the user to take, resulting in a loss for the player.
 Our program will have one more input:
 •	q - Terminates the program with the message: "Goodbye"
